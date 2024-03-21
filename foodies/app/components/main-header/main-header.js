@@ -11,7 +11,6 @@ export default function MainHeader() {
       <MainHeaderBackground />
       <header className={classes.header}>
         <Link href="/" className={classes.logo}>
-          <Image src={logoImg} alt="A plate with food on it" priority />
           NextLevel Food
         </Link>
 

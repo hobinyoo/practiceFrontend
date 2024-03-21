@@ -29,6 +29,8 @@ export default function NewProject({ onAdd, onCancel }) {
       dueDate: enteredDueDate,
     });
   }
+  console.log(modal, "modal");
+
   return (
     <>
       <Modal ref={modal} buttonCaption="Okay">
